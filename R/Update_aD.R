@@ -1,6 +1,6 @@
 Update_aD <-
 function(last.params){
-		aD_prime <- last.params$aD+rnorm(1,0,last.params$aD_stp)
+		aD_prime <- exp(log(last.params$aD)+rnorm(1,0,last.params$aD_stp))
 		prior_prob_alphaD_prime <- Prior_prob_alphaD(aD_prime) 
 		new.params <- last.params
 		if(prior_prob_alphaD_prime != -Inf) {											

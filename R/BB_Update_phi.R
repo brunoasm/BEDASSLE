@@ -1,6 +1,6 @@
 BB_Update_phi <-
 function(last.params){
-		phi_prime <- last.params$phi + rnorm(last.params$k,0,last.params$phi_stp)
+		phi_prime <- exp(log(last.params$phi) + rnorm(last.params$k,0,last.params$phi_stp))
 		prior_prob_phi_prime <- BB_Prior_prob_phi(phi_prime)
 		LnL_counts_mat_prime <- BB_Likelihood_counts(phi_prime,last.params$counts,last.params$sample_sizes,last.params$allele.frequencies)
 		new.params <- last.params

@@ -1,6 +1,6 @@
 Update_aE <-
 function(last.params){
-		aE_prime <- last.params$aE+rnorm(length(last.params$aE),0,last.params$aE_stp)
+		aE_prime <- exp(log(last.params$aE)+rnorm(length(last.params$aE),0,last.params$aE_stp))
 		prior_prob_alphaE_prime <- Prior_prob_alphaE(aE_prime) 
 		new.params <- last.params
 		if(prior_prob_alphaE_prime != -Inf) {
