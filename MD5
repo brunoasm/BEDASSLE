@@ -3,7 +3,7 @@
 4ae04fececbe1460e620a3683e845bcd *R/BB_Likelihood_counts.R
 5d8cc64ab940b8e5260c90d759839bb0 *R/BB_Prior_prob_phi.R
 47afaf21083c9563580aa3e110141365 *R/BB_Update_mu.R
-e2d0bd183bef65a3b764c4c3c3abc112 *R/BB_Update_phi.R
+2de305dbb47d8ca0d013121c6204b87b *R/BB_Update_phi.R
 fe7d2a3cc4395851b2dd746fa4a24c27 *R/BB_Update_thetas.R
 30e0951ccae8f070cfdba2f622acb742 *R/Covariance.R
 55f3abfc5cdb778836e546fe34a69bef *R/Initialize.params.R
@@ -20,8 +20,8 @@ a683a5249c9072d5702baaee9a8ab13c *R/Prior_prob_alphaE.R
 57977b95b82c92fe0b26b50eab75a160 *R/Shift.R
 3385d24bc410fc40d3f005a1f6486ba1 *R/Update_a0.R
 316d2898b82be7decf8fc0bcd83f4115 *R/Update_a2.R
-1d16200f2dc7d0ba0dec076018eb1b2a *R/Update_aD.R
-b14e2705e0d2561d25884cb80b511df8 *R/Update_aE.R
+bf505fc2f1a77e71d1145a066509927b *R/Update_aD.R
+45346b5c5a19784930d7a2004760704a *R/Update_aE.R
 2540fce436a93b28b586ade792d8be51 *R/Update_beta.R
 033981ee7dd34e201b532badacb9cff5 *R/Update_mu.R
 ad0149b9831918431cef14cf2777c9e5 *R/Update_thetas.R
